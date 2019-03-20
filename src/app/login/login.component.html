@@ -1,0 +1,8 @@
+<thf-page-login
+  t-background="../../assets/images/discount.jpeg"
+  t-hide-remember-user
+  t-recovery-url="/change-password"
+  t-register-url="/signup"
+  [t-literals]="customLiterals"
+  (t-login-submit)="signIn($event)">
+</thf-page-login>
