@@ -1,2 +1,26 @@
-<thf-page-default t-title="Clientes">
+<thf-page-default 
+  t-title="Clientes"
+  [t-actions]="actions">
+
+  <div class="thf-row">
+    <thf-widget
+      class="thf-md-2 thf-mt-2"
+      t-height="200"
+      t-title=""
+      (t-primary-action)="openModal('account')">
+  
+      <div class="thf-font-subtitle thf-pt-3 thf-text-center">Claudia da silva</div>
+      <div class="thf-text-center">claudia@gmail.com</div>
+    </thf-widget>
+
+    <thf-widget
+      class="thf-md-2 thf-mt-2"
+      t-height="200"
+      t-title=""
+      (t-primary-action)="openModal('account')">
+  
+      <div class="thf-font-subtitle thf-pt-3 thf-text-center">Rogerio da Silva</div>
+      <div class="thf-text-center">Email não cadastrado</div>
+    </thf-widget>
+  </div>
 </thf-page-default>

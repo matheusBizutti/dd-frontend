@@ -10,8 +10,10 @@ import { ThfToolbarProfile, ThfToolbarAction } from '@totvs/thf-ui/components/th
 export class HomeComponent implements OnInit {
 
   readonly items: Array<ThfMenuItem> = [
-    { label: 'Customers', link: 'customers', icon: 'thf-icon-users' },
-    { label: 'Discounts', link: 'discounts', icon: 'thf-icon-credit-payment' }
+    { label: 'Clientes', link: 'customers', icon: 'thf-icon-users' },
+    { label: 'Descontos', link: 'discounts', icon: 'thf-icon-credit-payment' },
+    { label: 'Percentual', link: 'discounts', icon: 'thf-icon-debit-payment' },
+    { label: 'Relatório', link: 'discounts', icon: 'thf-icon thf-icon-document-filled' }
   ];
 
   public readonly profile: ThfToolbarProfile = {
